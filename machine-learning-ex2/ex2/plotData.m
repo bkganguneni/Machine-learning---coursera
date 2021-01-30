@@ -14,8 +14,8 @@ figure; hold on;
 pos = find(y == 1);
 neg = find(y == 0);
 figure;
-plot(X(pos,1),X(pos,2),'yo');
-plot(X(neg,1),X(neg,2),'r+');
+plot(X(pos,1),X(pos,2),'b+');
+plot(X(neg,1),X(neg,2),'ro');
 
 
 hold off;
